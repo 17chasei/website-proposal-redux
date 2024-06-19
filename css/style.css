@@ -1,0 +1,72 @@
+.popup-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border: 1px solid #d61a2a;
+    z-index: 1;
+    color:rgba(255, 255, 255, 0.918)
+}
+
+.popup-trigger:hover + .popup-content {
+    display: block;
+}
+
+.dotted-underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dotted-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    border-bottom: 1px dotted rgb(218, 218, 67);
+}
+
+body {
+    background-color: rgb(27, 24, 24);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+    text-align: justify;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(235, 35, 35);
+}
+
+#homepage-subtitle {
+    text-align: center;
+}
+
+p, ul {
+    color: rgba(255, 255, 255, 0.918);
+}
+
+a {
+    color: rgb(218, 218, 67);
+}
+
+.home {
+    text-align: center;
+}
+
+#hieroglyphs {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
