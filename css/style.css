@@ -49,11 +49,15 @@ h2 {
     color: rgb(235, 35, 35);
 }
 
+h3 {
+    color: beige;
+}
+
 #homepage-subtitle {
     text-align: center;
 }
 
-p, ul, ol {
+p, ul, ol, figcaption {
     color: rgba(255, 255, 255, 0.918);
 }
 
@@ -65,14 +69,34 @@ a {
     text-align: center;
 }
 
-.title-images {
+.title-pics {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-pics figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title-pics img {
+    width: 300px;
+    height: 300px;
     display: block;
     margin: 0 auto;
+}
+
+.title-pics figcaption {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
     font-size: 15px;
 }
 
-.title-images-text {
-    font-size: 15px;
-    text-align: center;
+.citations {
+    text-align: left;
 }
