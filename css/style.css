@@ -6,7 +6,7 @@
     padding: 10px;
     border: 1px solid #d61a2a;
     z-index: 1;
-    color:rgba(255, 255, 255, 0.918)
+    color:rgba(255, 255, 255, 0.918);
 }
 
 .popup-trigger:hover + .popup-content {
