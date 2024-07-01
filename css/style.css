@@ -83,6 +83,15 @@ footer {
     text-align: center;
 }
 
+.transliterate-large-font {
+    font-size: 20px;
+}
+
+.horizontal-font {
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+}
+
 /* Images */
 .title-pics {
     text-align: center;
@@ -120,3 +129,4 @@ footer {
 ul li {
     padding-top: 8px;
 }
+
