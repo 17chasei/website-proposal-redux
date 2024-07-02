@@ -92,6 +92,12 @@ footer {
     text-orientation: sideways;
 }
 
+.transliterate-font-override {
+    font-size: 13px;
+    font-style: italic;
+    color: orange;
+}
+
 /* Images */
 .title-pics {
     text-align: center;
