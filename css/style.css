@@ -30,7 +30,7 @@
     bottom: 0;
     left: 0;
     background-color: transparent;
-    border-bottom: 1px dotted #d61a2a;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.918);
 }
 
 /* Font configurations */
@@ -95,6 +95,10 @@ footer {
 .transliterate-font-override {
     font-size: 13px;
     font-style: italic;
+    color: orange;
+}
+
+.the-quick {
     color: orange;
 }
 
