@@ -102,6 +102,59 @@ footer {
     color: orange;
 }
 
+.top-banner-small {
+    text-align: center;
+    color: orange;
+    font-style: italic;
+    font-size: 11.5px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+    color:rgba(255, 255, 255, 0.918)
+}
+
+th {
+    background-color: rgb(27, 24, 24);
+}
+
+.tb {
+    font-size: 25px !important;
+}
+
+h2.tb {
+    font-size: 29px !important;
+}
+
+.container {
+    display: flex;
+}
+
+.table-wrapper {
+    margin-right: 25px;
+}
+
+caption {
+    color: orange;
+    font-weight: bold;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+.table-subtitle {
+    color: orange;
+    font-size: 15px;
+}
+
 /* Images */
 .title-pics {
     text-align: center;
