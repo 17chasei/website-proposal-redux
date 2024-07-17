@@ -120,7 +120,7 @@ th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 5px;
-    color:rgba(255, 255, 255, 0.918)
+    color:rgba(255, 255, 255, 0.918);
 }
 
 th {
@@ -144,7 +144,7 @@ h2.tb {
 }
 
 caption {
-    color: orange;
+    color:rgba(255, 255, 255, 0.918);
     font-weight: bold;
     padding-bottom: 8px;
     text-align: left;
@@ -153,6 +153,20 @@ caption {
 .table-subtitle {
     color: orange;
     font-size: 15px;
+}
+
+.preliminaries p, ul, li {
+    max-width: 700px;
+    text-align: left;
+}
+
+.preliminaries li {
+    font-size: 15px;
+}
+
+.preliminaries p {
+    font-style: italic;
+    font-weight: bolder;
 }
 
 /* Images */
